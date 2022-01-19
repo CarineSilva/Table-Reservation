@@ -1,0 +1,31 @@
+body {
+    background-color: #ceb4b4;
+    font-family:'Gill Sans', 'Gill Sans MT' 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    margin-left: 35%;
+    margin-top: 2%;
+    color: #0f0e14;
+    display: table;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #515055;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.radio {
+    cursor: pointer;
+    border: 1px solid;
+    display: inline-block;
+}
